@@ -27,7 +27,8 @@ Previsão para 28°C:
 <img width="224" height="30" alt="Captura de tela 2026-02-18 182636" src="https://github.com/user-attachments/assets/15692514-0a3e-4c8a-bc1d-8cfa47c1294e" /> )
 
 Gráfico da regressão:
-![Gráfico](<img width="856" height="449" alt="previsão png" src="https://github.com/user-attachments/assets/2f689973-d395-4a03-ab3e-7f70748de6dd" />)
+![Gráfico](<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/4e8a8a15-4c24-4b7a-a829-5145a450c47d" />
+)
 
 ---
 

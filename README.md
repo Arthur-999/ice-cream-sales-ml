@@ -23,7 +23,8 @@ Este projeto tem como objetivo prever vendas de sorvete com base na temperatura 
 ## 📊 Resultados
 
 Previsão para 28°C:
-![Previsão](images/previsao.png)
+![Previsão](<img width="224" height="30" alt="Captura de tela 2026-02-18 182636" src="https://github.com/user-attachments/assets/15692514-0a3e-4c8a-bc1d-8cfa47c1294e" />
+<img width="224" height="30" alt="Captura de tela 2026-02-18 182636" src="https://github.com/user-attachments/assets/15692514-0a3e-4c8a-bc1d-8cfa47c1294e" />)
 
 Gráfico da regressão:
 ![Gráfico](images/grafico.png)

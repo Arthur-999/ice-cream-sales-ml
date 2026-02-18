@@ -1,29 +1,53 @@
 # 🍦 Ice Cream Sales ML
 
-Este projeto tem como objetivo prever as vendas de sorvete com base na temperatura do dia, usando Machine Learning.
+Este projeto tem como objetivo prever vendas de sorvete com base na temperatura utilizando **Machine Learning** (Regressão Linear).
 
-## 📂 Estrutura
-- `inputs/` → contém os dados de entrada (dados.txt).
+---
+
+## 📂 Estrutura do Projeto
+- `inputs/` → contém os dados de entrada (`dados.txt`).
 - `notebooks/` → contém o notebook `modelo.ipynb` com o código de análise e modelagem.
+- `images/` → contém os prints dos resultados (previsão e gráfico).
 - `README.md` → documentação do projeto.
 
+---
+
 ## 🚀 Passos realizados
-1. Criação de dataset simples relacionando temperatura e vendas.
-2. Treinamento de um modelo de regressão linear.
-3. Visualização dos resultados em gráfico.
-4. Registro do modelo com MLflow.
+1. Criação de um dataset simples relacionando temperatura e vendas.
+2. Treinamento de um modelo de regressão linear com `scikit-learn`.
+3. Visualização dos resultados em gráfico com `matplotlib`.
+4. Registro da previsão para uma temperatura específica (28°C).
+
+---
 
 ## 📊 Resultados
-- O modelo conseguiu prever vendas com base na temperatura.
-- Exemplo: para 28°C, previsão ≈ 170 sorvetes.
-- Gráfico mostra correlação positiva entre temperatura e vendas.
+
+Previsão para 28°C:
+![Previsão](images/previsao.png)
+
+Gráfico da regressão:
+![Gráfico](images/grafico.png)
+
+---
 
 ## 💡 Insights
-- Quanto maior a temperatura, maior a demanda.
+- Quanto maior a temperatura, maior a demanda por sorvete.
 - Acima de 30°C, a curva de vendas cresce mais rápido.
-- Possibilidade de incluir variáveis como chuva, dia da semana e feriados.
+- O modelo simples já mostra uma relação clara entre temperatura e vendas.
+
+---
 
 ## 🔮 Próximos passos
-- Testar outros modelos (Random Forest, XGBoost).
-- Implementar API com FastAPI para previsões em tempo real.
-- Deploy em ambiente de cloud computing.
+- Testar outros modelos (ex.: Random Forest, XGBoost).
+- Adicionar variáveis externas (chuva, dia da semana, feriados).
+- Implementar uma API para previsões em tempo real.
+- Fazer deploy em ambiente de cloud computing.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+- Python  
+- Pandas  
+- Matplotlib  
+- Scikit-learn  
+- Jupyter Notebook

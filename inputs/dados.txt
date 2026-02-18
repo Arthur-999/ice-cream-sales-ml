@@ -1,0 +1,4 @@
+Temperatura: 20°C → Vendas: 50
+Temperatura: 25°C → Vendas: 120
+Temperatura: 30°C → Vendas: 200
+Temperatura: 35°C → Vendas: 300
